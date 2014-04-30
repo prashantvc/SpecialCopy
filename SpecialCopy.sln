@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialCopy", "Xamarin.SpecialCopy\SpecialCopy.csproj", "{4A1DD161-1E2A-400A-AB71-F72D58F36460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonClassGeneratorLib", "JsonCSharpClassGeneratorLib\JsonClassGeneratorLib.csproj", "{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A1DD161-1E2A-400A-AB71-F72D58F36460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1DD161-1E2A-400A-AB71-F72D58F36460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1DD161-1E2A-400A-AB71-F72D58F36460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1DD161-1E2A-400A-AB71-F72D58F36460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Xamarin.SpecialCopy\SpecialCopy.csproj
+	EndGlobalSection
+EndGlobal

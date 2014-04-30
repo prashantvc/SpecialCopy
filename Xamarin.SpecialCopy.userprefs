@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Xamarin.SpecialCopy/JsonConverterHandler.cs">
+    <Files>
+      <File FileName="Xamarin.SpecialCopy/JsonConverterHandler.cs" Line="29" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/prashantvc/Playground/Xamarin.SpecialCopy/Xamarin.SpecialCopy/JsonConverterHandler.cs" line="15" column="1" />
+      <Breakpoint file="/Users/prashantvc/Playground/Xamarin.SpecialCopy/Xamarin.SpecialCopy/JsonConverterHandler.cs" line="20" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
