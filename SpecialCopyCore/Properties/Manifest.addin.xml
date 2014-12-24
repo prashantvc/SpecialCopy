@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Addin namespace="SpecialCopy" id="SpecialCopy" name="Special Copy" author="Prashant Cholachagudda" copyright="Prashant Cholachagudda" description="Paste JSON as C# class" category="IDE extensions" version="1.0">
+<Addin namespace="SpecialCopy" id="JSONCopy" name="JSON Copy" author="Prashant Cholachagudda" copyright="Prashant Cholachagudda" description="Paste JSON as C# class" category="IDE extensions" version="1.0">
 	<Dependencies>
 		<Addin id="::MonoDevelop.Core" version="5.0" />
 		<Addin id="::MonoDevelop.Ide" version="5.0" />
