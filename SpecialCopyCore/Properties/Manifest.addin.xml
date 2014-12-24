@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Addin namespace="SpecialCopy" id="SpecialCopy" name="SpecialCopy" author="Prashant Cholachagudda" copyright="Prashant Cholachagudda" description="Paste JSON as C# class" category="IDE extensions" version="0.2">
+<Addin namespace="SpecialCopy" id="SpecialCopy" name="SpecialCopyGTK" author="Prashant" copyright="Prashant Cholachagudda" description="Paste JSON as C# class" category="IDE extensions" version="0.3">
 	<Dependencies>
-		<Addin id="::MonoDevelop.Core" version="4.0" />
-		<Addin id="::MonoDevelop.Ide" version="4.0" />
+		<Addin id="::MonoDevelop.Core" version="5.0" />
+		<Addin id="::MonoDevelop.Ide" version="5.0" />
 	</Dependencies>
 	<Extension path="/MonoDevelop/Ide/Commands/Edit">
 		<Command id="SpecialCopy.JsonConverter.JsonConverterCommand.PasteJson" 

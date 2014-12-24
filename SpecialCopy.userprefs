@@ -1,24 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Xamarin.SpecialCopy/JsonConverterHandler.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Xamarin.SpecialCopy/Properties/Manifest.addin.xml">
     <Files>
-      <File FileName="../../Work/monodevelop/main/src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport/DocumentOutlinePad.cs" Line="1" Column="1" />
-      <File FileName="../../Work/monodevelop/main/src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/Workbench.cs" Line="1" Column="1" />
-      <File FileName="../../Work/monodevelop/main/src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/Document.cs" Line="1" Column="1" />
-      <File FileName="../../Work/monodevelop/main/src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport/ClassOutlineTextEditorExtension.cs" Line="5" Column="5" />
-      <File FileName="JsonCSharpClassGeneratorLib/JsonClassHelper.cs" Line="10" Column="10" />
-      <File FileName="JsonCSharpClassGeneratorLib/JsonType.cs" Line="1" Column="1" />
-      <File FileName="Xamarin.SpecialCopy/JsonConverterHandler.cs" Line="7" Column="7" />
+      <File FileName="Xamarin.SpecialCopy/Properties/Manifest.addin.xml" Line="9" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/prashantvc/Work/monodevelop/main/src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/CSharpCompletionTextEditorExtension.cs" line="343" column="1" />
-      <Breakpoint file="/Users/prashantvc/Work/monodevelop/main/src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/CSharpCompletionTextEditorExtension.cs" line="271" column="1" />
-      <Breakpoint file="/Users/prashantvc/Work/monodevelop/main/src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/MonoCSharpCompletionEngine.cs" line="73" column="1" />
-      <Breakpoint file="/Users/prashantvc/Work/monodevelop/main/src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport/DocumentOutlinePad.cs" line="104" column="1" />
-      <Breakpoint file="/Users/prashantvc/Playground/Xamarin.SpecialCopy/Xamarin.SpecialCopy/JsonConverterHandler.cs" line="16" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
