@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{4A1DD161-1E2A-400A-AB71-F72D58F36460}</ProjectGuid>
     <ProjectTypeGuids>{7DBEB09D-BB9F-4D92-A141-A009135475EF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -33,18 +33,20 @@
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
-    <Reference Include="Mono.Addins" />
+    <Reference Include="Mono.Addins">
+      <Package>/Applications/Xamarin Studio.app/Contents/Resources/lib/monodevelop/bin/Mono.Addins.dll</Package>
+    </Reference>
     <Reference Include="MonoDevelop.Core">
-      <Package>/Applications/Xamarin Studio.app/Contents/MacOS/lib/monodevelop/bin/MonoDevelop.Core.dll</Package>
+      <Package>/Applications/Xamarin Studio.app/Contents/Resources/lib/monodevelop/bin/MonoDevelop.Core.dll</Package>
     </Reference>
     <Reference Include="MonoDevelop.Ide">
-      <Package>/Applications/Xamarin Studio.app/Contents/MacOS/lib/monodevelop/bin/MonoDevelop.Ide.dll</Package>
+      <Package>/Applications/Xamarin Studio.app/Contents/Resources/lib/monodevelop/bin/MonoDevelop.Ide.dll</Package>
     </Reference>
     <Reference Include="Mono.TextEditor">
-      <Package>/Applications/Xamarin Studio.app/Contents/MacOS/lib/monodevelop/bin/Mono.TextEditor.dll</Package>
+      <Package>/Applications/Xamarin Studio.app/Contents/Resources/lib/monodevelop/bin/Mono.TextEditor.dll</Package>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
-      <Package>/Applications/Xamarin Studio.app/Contents/MacOS/lib/monodevelop/bin/ICSharpCode.NRefactory.dll</Package>
+      <Package>/Applications/Xamarin Studio.app/Contents/Resources/lib/monodevelop/bin/ICSharpCode.NRefactory.dll</Package>
     </Reference>
     <Reference Include="gtk-sharp" />
     <Reference Include="glib-sharp" />
@@ -52,7 +54,7 @@
     <Reference Include="pango-sharp" />
     <Reference Include="Mono.Cairo" />
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.7\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -64,12 +66,12 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\JsonCSharpClassGeneratorLib\JsonClassGeneratorLib.csproj">
       <Project>{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}</Project>
       <Name>JsonClassGeneratorLib</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
