@@ -5,6 +5,7 @@ An Addin for Monodevelop/Xamarin studio to paste json string as C# classes
 
 ![Image](http://i.imgur.com/7DJ8UL7.png)
 
+
 ## Installation
 You need to follow these three easy steps to install this feature on our Xamarin Studio.
 
@@ -14,13 +15,12 @@ You need to follow these three easy steps to install this feature on our Xamarin
 
 Once you install the add-in the _Paste JSON as classes_ command will appear in _Edit_ menu, that enable you to paste C# classes directly from the text in your clipboard.
 
+![Imgur](http://i.imgur.com/Cmbd48u.png)
 
 ## Todo:
-
  Add preferences to
- 	
- - Convert to PascalCase
- - Generate memberbs as Properties/Fields
+ - ~~Convert to PascalCase~~
+ - ~~Generate memberbs as Properties/Fields~~
  
  
 -----
