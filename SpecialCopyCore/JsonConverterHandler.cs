@@ -16,18 +16,26 @@ namespace SpecialCopy.JsonConverter
 		{
 			if (string.IsNullOrEmpty (text)) {
 				InsertCSharp (string.Empty);
+
+				#if DEBUG
+				MessageService.ShowWarning ("Clipboard is empty!");
+				#endif
+
 				return;
 			}
 
 			var gen = new JsonClassGenerator { 
 				Example = text, 
 				MainClass = "RootObject",
-				UseProperties = true, 
 				CodeWriter = new CSharpCodeWriter () 
 			};
 
 			try {
 				using (var sw = new StringWriter ()) {
+					gen.UsePascalCase = PropertyList.UsePascalCase;
+					gen.InternalVisibility = PropertyList.InternalClass;
+					gen.UseProperties = PropertyList.UseProperties;
+
 					gen.OutputStream = sw;
 					gen.GenerateClasses ();
 					sw.Flush ();
@@ -58,8 +66,6 @@ namespace SpecialCopy.JsonConverter
 
 		protected override void Update (CommandInfo info)
 		{
-			Console.WriteLine (info);
-
 			var doc = IdeApp.Workbench.ActiveDocument;
 			info.Enabled = doc != null && doc.GetContent<ITextEditorDataProvider> () != null;
 		}

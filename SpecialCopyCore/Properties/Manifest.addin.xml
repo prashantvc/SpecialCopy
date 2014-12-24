@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Addin namespace="SpecialCopy" id="SpecialCopy" name="SpecialCopyGTK" author="Prashant" copyright="Prashant Cholachagudda" description="Paste JSON as C# class" category="IDE extensions" version="0.3">
+<Addin namespace="SpecialCopy" id="SpecialCopy" name="Special Copy" author="Prashant Cholachagudda" copyright="Prashant Cholachagudda" description="Paste JSON as C# class" category="IDE extensions" version="1.0">
 	<Dependencies>
 		<Addin id="::MonoDevelop.Core" version="5.0" />
 		<Addin id="::MonoDevelop.Ide" version="5.0" />
 	</Dependencies>
 	<Extension path="/MonoDevelop/Ide/Commands/Edit">
-		<Command id="SpecialCopy.JsonConverter.JsonConverterCommand.PasteJson" 
-		_label="Paste JSON as classes" 
-		_description="Paste Json as C# Class" 
-		defaultHandler = "SpecialCopy.JsonConverter.JsonConverterHandler" />
+		<Command id="SpecialCopy.JsonConverter.JsonConverterCommand.PasteJson" _label="Paste JSON as classes" _description="Paste Json as C# Class" defaultHandler="SpecialCopy.JsonConverter.JsonConverterHandler" />
 	</Extension>
 	<Extension path="/MonoDevelop/Ide/MainMenu/Edit">
 		<CommandItem id="SpecialCopy.JsonConverter.JsonConverterCommand.PasteJson" />
+	</Extension>
+	<Extension path="/MonoDevelop/Ide/GlobalOptionsDialog/Other">
+		<Section id="Special Copy" _label="JSON Copy" fill="true" class="SpecialCopy.SpecialCopyPanel" />
 	</Extension>
 	<Runtime>
 		<Import assembly="Newtonsoft.Json.dll" />

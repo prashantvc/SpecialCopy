@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Xamarin.SpecialCopy/Properties/Manifest.addin.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="JsonCopy/Properties/Manifest.addin.xml">
     <Files>
-      <File FileName="Xamarin.SpecialCopy/Properties/Manifest.addin.xml" Line="9" Column="9" />
+      <File FileName="JsonCopy/Properties/Manifest.addin.xml" Line="12" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
