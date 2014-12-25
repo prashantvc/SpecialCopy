@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Addin namespace="SpecialCopy" id="JSONCopy" name="JSON Copy" author="Prashant Cholachagudda" copyright="Prashant Cholachagudda" description="Paste JSON as C# class" category="IDE extensions" version="1.0">
+<Addin namespace="SpecialCopy" id="JSONCopy" name="JSON Copy" author="Prashant Cholachagudda" copyright="Prashant Cholachagudda" description="Paste JSON as C# class" category="IDE extensions" version="1.0.1">
 	<Dependencies>
 		<Addin id="::MonoDevelop.Core" version="5.0" />
 		<Addin id="::MonoDevelop.Ide" version="5.0" />
@@ -17,5 +17,6 @@
 		<Import assembly="Newtonsoft.Json.dll" />
 		<Import assembly="Xamasoft.JsonClassGenerator.dll" />
 		<Import assembly="System.Data.Entity.Design.PluralizationServices.dll" />
+		<Import assembly="Mono.Posix.dll"/>
 	</Runtime>
 </Addin>
