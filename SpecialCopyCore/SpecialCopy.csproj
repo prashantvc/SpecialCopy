@@ -72,6 +72,9 @@
     <Reference Include="Mono.Posix">
       <Private>True</Private>
     </Reference>
+    <Reference Include="Xamasoft.JsonClassGenerator">
+      <HintPath>..\lib\Release\Xamasoft.JsonClassGenerator.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="gtk-gui\gui.stetic">
@@ -87,12 +90,6 @@
     <Compile Include="PropertyList.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\JsonCSharpClassGeneratorLib\JsonClassGeneratorLib.csproj">
-      <Project>{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}</Project>
-      <Name>JsonClassGeneratorLib</Name>
-    </ProjectReference>
-  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
