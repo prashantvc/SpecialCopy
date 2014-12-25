@@ -9,7 +9,7 @@ An Addin for Monodevelop/Xamarin studio to paste json string as C# classes
 ## Installation
 You need to follow these three easy steps to install this feature on our Xamarin Studio.
 
-1. Download the add-in package from [Releases](https://github.com/prashantvc/SpecialCopy/releases/tag/v0.2)
+1. Download the add-in package from [Releases](https://github.com/prashantvc/SpecialCopy/releases/tag/v1.0.1)
 2. Open Xamarin Studio -> Add-in Manager 
 3. Click on _Install from file..._ button and select the downloaded package to install
 
