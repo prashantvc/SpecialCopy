@@ -17,6 +17,6 @@
 		<Import assembly="Newtonsoft.Json.dll" />
 		<Import assembly="Xamasoft.JsonClassGenerator.dll" />
 		<Import assembly="System.Data.Entity.Design.PluralizationServices.dll" />
-		<Import assembly="Mono.Posix.dll"/>
+		<Import assembly="Mono.Posix.dll" />
 	</Runtime>
 </Addin>
