@@ -1,25 +1,18 @@
-﻿<Properties>
+﻿<Properties StartupItem="SpecialCopyCore/SpecialCopy.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="SpecialCopyCore/JsonConverterHandler.cs">
     <Files>
-      <File FileName="SpecialCopyCore/JsonConverterHandler.cs" Line="17" Column="17" />
+      <File FileName="SpecialCopyCore/JsonConverterHandler.cs" Line="65" Column="4" />
+      <File FileName="SpecialCopyCore/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="SpecialCopyCore/Properties/Manifest.addin.xml" Line="16" Column="36" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="JsonClassGeneratorLib" expanded="True" selected="True" />
-          <Node name="SpecialCopy" expanded="True">
-            <Node name="References" expanded="True" />
-            <Node name="Packages" expanded="True" />
-            <Node name="Properties" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/prashantvc/Playground/Xamarin.SpecialCopy/SpecialCopyCore/JsonConverterHandler.cs" line="16" column="4" />
+      <Breakpoint file="/Users/prashantvc/Playground/Xamarin.SpecialCopy/SpecialCopyCore/JsonConverterHandler.cs" line="46" column="1" />
+      <Breakpoint file="/Users/prashantvc/Playground/Xamarin.SpecialCopy/JsonCSharpClassGeneratorLib/JsonClassGenerator.cs" line="45" column="1" />
+      <Breakpoint file="/Users/prashantvc/Playground/Xamarin.SpecialCopy/JsonCSharpClassGeneratorLib/JsonClassGenerator.cs" line="74" column="26" />
+      <Breakpoint file="/Users/prashantvc/Playground/Xamarin.SpecialCopy/SpecialCopyCore/JsonConverterHandler.cs" line="62" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
