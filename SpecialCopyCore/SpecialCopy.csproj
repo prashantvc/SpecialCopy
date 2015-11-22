@@ -69,14 +69,14 @@
     <Compile Include="PropertyList.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\packages\MonoDevelop.Addins.0.2.1\build\net40\MonoDevelop.Addins.targets" Condition="Exists('..\packages\MonoDevelop.Addins.0.2.1\build\net40\MonoDevelop.Addins.targets')" />
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
+  <Import Project="..\packages\MonoDevelop.Addins.0.2.3\build\net40\MonoDevelop.Addins.targets" Condition="Exists('..\packages\MonoDevelop.Addins.0.2.3\build\net40\MonoDevelop.Addins.targets')" />
   <ItemGroup>
     <ProjectReference Include="..\JsonCSharpClassGeneratorLib\JsonClassGeneratorLib.csproj">
       <Project>{7BEF7EAA-DE37-40FB-BD33-3DEF0685031F}</Project>
       <Name>JsonClassGeneratorLib</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
