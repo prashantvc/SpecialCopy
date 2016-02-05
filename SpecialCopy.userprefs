@@ -1,12 +1,11 @@
 ﻿<Properties StartupItem="SpecialCopyCore/SpecialCopy.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SpecialCopyCore/JsonConverterHandler.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpecialCopyCore/SpecialtCopyPreference.cs">
     <Files>
-      <File FileName="SpecialCopyCore/packages.config" Line="4" Column="12" />
-      <File FileName="SpecialCopyCore/JsonConverterHandler.cs" Line="16" Column="3" />
-      <File FileName="SpecialCopyCore/Properties/Manifest.addin.xml" Line="18" Column="9" />
+      <File FileName="SpecialCopyCore/SpecialtCopyPreference.cs" Line="56" Column="5" />
+      <File FileName="SpecialCopyCore/packages.config" Line="5" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/prashantvc/Playground/Xamarin.SpecialCopy/SpecialCopyCore/JsonConverterHandler.cs" line="46" column="1" />

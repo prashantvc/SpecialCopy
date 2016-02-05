@@ -9,7 +9,8 @@ namespace SpecialCopy
 	{
 		SpecialCopyWidget widget;
 
-		public override Gtk.Widget CreatePanelWidget ()
+
+		public override MonoDevelop.Components.Control CreatePanelWidget ()
 		{
 			widget = new SpecialCopyWidget ();
 			widget.UsePascalCasing = PropertyList.UsePascalCase;
