@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AddinProject appVersion="6.0">
-	<Project platforms="Linux Win32 Mac">
+<AddinProject appVersion="7.0">
+	<Project platforms="Mac">
 		<AddinFile>SpecialCopyCore/bin/Release/SpecialCopy.dll</AddinFile>
 		<BuildFile>SpecialCopy.sln</BuildFile>
 		<BuildConfiguration>Release</BuildConfiguration>
